@@ -38,7 +38,7 @@ const Service = () => {
           </li>
         </ul>
       </div>
-      <a href='#hero' className='w-[50px] fixed bottom-[50px] z-50 right-[100px]'><img src={UpArrow} alt="UpArrow" /></a>
+      <a href='#hero' className='w-[20px] bottom-[30px] right-[30px] md:w-[50px] fixed md:bottom-[50px] z-50 md:right-[100px]'><img src={UpArrow} alt="UpArrow" /></a>
     </section>
   )
 }
