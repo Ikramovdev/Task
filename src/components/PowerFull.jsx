@@ -9,7 +9,7 @@ const PowerFull = () => {
     Aos.init()
     return (
         <section id='about'>
-            <div className='w-sm md:w-md lg:w-[1110px] powerContainer mx-5 lg:mx-auto py-[110px] md:flex md:items-center md:justify-between'>
+            <div className='w-sm md:w-md lg:w-[1110px] powerContainer mx-5 lg:mx-auto py-[110px] md:flex md:items-center md:justify-between overflow-hidden'>
                 <div data-aos="fade-right" className='my-5 lg:my-[50px]'>
                     <div className='mb-[50px] md:mb-[80px] w-sm md:w-[350px] lg:w-[540px] text-center md:text-left'>
                         <h2 className='font-medium text-[30px] md:text-[25px] lg:text-[36px] leading-[35px] lg:leading-[48px] text-[#091133] mb-[16px]'>Light, Fast & Powerful</h2>

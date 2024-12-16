@@ -59,9 +59,12 @@ body {
     
 }
 
-@media (max-width: 768px) {
+@media (max-width: 640px) {
     body {
-        background-image: none;
+        background-image: url("./assets//images/SiteBg.png");
+        background-repeat: no-repeat;
+        background-size: 100% 10%;
+        background-position: top right;
         margin: 0;
         padding: 0;
         overflow-x: hidden;

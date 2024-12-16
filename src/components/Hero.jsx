@@ -5,7 +5,7 @@ import HeroImg from "../assets/images/HeroImg.png"
 const Hero = () => {
     return (
         <section id='hero' className='mt-10 md:mt-[65px] lg:mb-[85px]'>
-            <div className='w-sm md:w-md lg:w-[1110px] mx-5 lg:mx-auto heroContainer flex items-center justify-between'>
+            <div className='w-sm md:w-md lg:w-[1110px] mx-5 lg:mx-auto heroContainer flex items-center justify-between overflow-hidden'>
                 <div className='w-sm md:w-[450px] lg:w-[539px]'>
                     <h1 className='font-medium text-[25px] md:text-[40px] lg:text-[50px] text-[#091133] leading-[30px] text-center md:text-left md:leading-[50px] lg:leading-[66px] mb-3 md:mb-5'>Introduce Your Product Quickly & Effectively</h1>
                     <p className='font-regular text-[15px] md:text-[18px] leading-[25px] text-center md:text-left md:leading-[30px] text-[#505F98] mb-10 md:mb-[50px] lg:mb-[70px]'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
