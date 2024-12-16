@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
+* {
     scroll-behavior: smooth;
 }
 
@@ -41,6 +41,9 @@ body {
     background-size: 1140px 850px;
     background-position: top right;
     font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
 
 @media (max-width: 1000px) {
@@ -52,12 +55,15 @@ body {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 640px) {
     body {
         background-image: url("./assets//images/SiteBg.png");
         background-repeat: no-repeat;
-        background-size: 450px 500px;
+        background-size: 100% 10%;
         background-position: top right;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
     }
 }
 
@@ -118,9 +124,10 @@ body {
 
 @media (max-width: 768px) {
     .FooterMenu {
-        display: flex ;
+        display: flex;
         flex-direction: column;
         gap: 30px;
     }
 }
+
 /* Footer  */
