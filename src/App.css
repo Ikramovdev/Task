@@ -1,0 +1,126 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    scroll-behavior: smooth;
+}
+
+
+/* Fonts */
+@font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-v32-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/roboto-v32-latin-500.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/roboto-v32-latin-900.woff2') format('woff2');
+}
+
+/* Fonts */
+
+/* responsive body img */
+body {
+    background-image: url("./assets//images/SiteBg.png");
+    background-repeat: no-repeat;
+    background-size: 1140px 850px;
+    background-position: top right;
+    font-family: "Roboto", sans-serif;
+}
+
+@media (max-width: 1000px) {
+    body {
+        background-image: url("./assets//images/SiteBg.png");
+        background-repeat: no-repeat;
+        background-size: 700px 550px;
+        background-position: top right;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        background-image: url("./assets//images/SiteBg.png");
+        background-repeat: no-repeat;
+        background-size: 450px 500px;
+        background-position: top right;
+    }
+}
+
+@media (max-width: 768px) {
+    .heroContainer {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 100px;
+    }
+}
+
+/* responsive body img */
+
+/* list responsive */
+@media (max-width: 768px) {
+    .powerContainer {
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+    }
+
+    .item>div {
+        display: none;
+    }
+}
+
+@media (max-width: 1024px) {
+    .serviceitem {
+        display: flex;
+        flex-direction: column;
+
+    }
+}
+
+/* list responsive */
+
+/* price section background img responsive */
+.priceBg {
+    background-image: url('./assets/images/PriceBg.png');
+    background-repeat: no-repeat;
+    background-size: 1846px 930px;
+    background-position: center top;
+}
+
+@media (max-width: 1000px) {
+    .priceBg {
+        background-image: url("./assets//images/SiteBg.png");
+        background-repeat: no-repeat;
+        background-size: 1846px 800px;
+        background-position: center top;
+    }
+}
+
+/* price section background img responsive */
+
+
+/* Footer  */
+
+@media (max-width: 768px) {
+    .FooterMenu {
+        display: flex ;
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+/* Footer  */
