@@ -1,7 +1,9 @@
-import React, { useEffect, useRef } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import Button from "./Button"
 import { CountUp } from 'countup.js';
 const Price = () => {
+
+    const [openModal,setOpenModal] = useState(false)
     // count animatsiya 
     const counterRef = useRef(null);
     const sectionRef = useRef(null);
@@ -42,7 +44,7 @@ const Price = () => {
                     </div>
                     <span className='font-regular text-[16px] leading-[26px] text-[#37447E] mb-[60px]'>UI Design Kit</span>
                     <p className='font-regular text-[14px] leading-[24px] text-[#5D6970] mb-[9px]'>See, One price. Simple.</p>
-                    <Button extraClass={'w-full md:w-[250px] lg:w-[190px] block mx-auto border-[2px] border-transparent hover:scale-[1.1] duration-300 hover:bg-white hover:text-[#111B47] hover:border-[#111B47] mb-[70px] lg:mb-[172px]'} title={'Purchase Now'} />
+                    <Button onclick={() => setOpenModal(true)} extraClass={`w-full md:w-[250px] lg:w-[190px] block mx-auto border-[2px] border-transparent hover:scale-[1.1] duration-300 hover:bg-white hover:text-[#111B47] hover:border-[#111B47] mb-[70px] lg:mb-[172px] ${openModal == true ? alert('you bought the product !'):""}`} title={'Purchase Now'} />
                 </div>
             </div>
         </section>

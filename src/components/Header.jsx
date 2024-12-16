@@ -18,7 +18,7 @@ const Header = () => {
         setHide(false)
     }
     return (
-        <header data-aos="fade-down">
+        <header className='sticky top-0 bg-white z-10' data-aos="fade-down">
             <div className={`w-md lg:w-[1110px] mx-5 lg:mx-auto py-[20px] relative ${hide == true ? "flex justify-end" : "flex items-center justify-between"}`}>
                 <div id='wrapper' className={`md:hidden absolute menu w-[150px] h-[200px] bg-[#111B47] rounded-md duration-300 ${isMenuOpen ? 'left-0' : 'left-[-100%]'}`}>
                     <button onClick={handleBackBtnCLick} className={`absolute left-[10px] top-[20px] hover:scale-[1.1] duration-300`}>

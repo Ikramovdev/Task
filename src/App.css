@@ -52,7 +52,11 @@ body {
         background-repeat: no-repeat;
         background-size: 700px 550px;
         background-position: top right;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
     }
+    
 }
 
 @media (max-width: 640px) {
@@ -61,6 +65,9 @@ body {
         background-repeat: no-repeat;
         background-size: 100% 10%;
         background-position: top right;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
         margin: 0;
         padding: 0;
         overflow-x: hidden;

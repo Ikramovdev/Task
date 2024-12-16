@@ -14,7 +14,7 @@ const Hero = () => {
                         <button className='w-full md:w-[190px] py-[4px] font-medium text-[12px] leading-[18px] text-center text-[#111B47] bg-white rounded-[2px] border-[2px] border-[#111B47] hover:bg-[#111B47] hover:text-white hover:border-white duration-300'>Learn More</button>
                     </div>
                 </div>
-                <img className='w-[300px] md:w-[400px] lg:w-[500px] h-[300px] md:h-[400px] lg:h-[600px]' src={HeroImg} alt="HeroImg" width={500} height={300} />
+                <img className='w-auto md:w-[400px] lg:w-[500px] h-auto md:h-[400px] lg:h-[600px]' src={HeroImg} alt="HeroImg" width={500} height={300} />
             </div>
         </section>
     )
